@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+/* da applicare a tutti i tag, cambia come funziona il box model, aggrega 
+i bordi al 100%*/
+
+body{
+    margin: 0;
+    height: 100vh;
+
+    /*reser del margine messo di default alla pagina
+    vh e un unica di misura che si da al body per dagli
+    come unita di misura lo schermo, come un 100%*/
+}
+p{
+    color: rgb(99, 242, 242)
+}
+/* p target, color attributo, rgb valore */
+
+
+#first-p{
+    color: rgb(111, 231, 0);
+    display: inline;
+    }
+
+#second-p{
+    color: rgb(171, 130, 25);
+    display: inline;
+    }
+/* gli id si indentificano con #nomeID */
+
+
+h2 {
+    color: blueviolet;
+    display: inline;
+}
+
+
+.first-title{
+    color: chocolate; 
+    display: inline;        
+}
+
+.second-title{
+    color: rgb(186, 128, 107);
+    background-color: #30336b;
+    display: inline;
+    /* invece che bloccare lintera linea della 
+    pagine si adatta alla grandezza, in questo caso della scritta
+    , in lotre permette di mettere gli elementi uno affiancato
+    al altro*/
+    
+}
+
+.card {
+    width: 17%;
+    height: 59%;
+    
+    background-color: #c1bdbd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;   
+
+}
+
+.card >img {
+
+    width: 100%;
+    height: 75%;
+    border-bottom: 1px solid black;
+    
+
+}
+
+.card > h2 {
+    margin: 33%;
+    color: #30336b;
+
+}
+
+#header {
+   
+
+    width: 100%;
+    height: 10%;
+    background-color:#30336b;
+    border-bottom: 1px solid black;
+}
+
+
+
+#main {
+  
+    position: relative;
+   padding: 1%;
+    width: 100%;
+    height: 80%;
+    background-color:#6e0a75;
+   
+}
+
+#footer {
+    width: 100%;
+    height: 10%;
+    background-color:#30336b;
+    border-top: 1px solid black;
+}
+
+.Button-Cat {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    
+
+    width: 70px;
+    height: 70px;
+    background-color: rgb(241, 190, 6);
+    border:2px solid black;
+}
