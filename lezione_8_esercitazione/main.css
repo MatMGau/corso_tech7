@@ -1,0 +1,20 @@
+#footer {
+
+
+}
+
+.body{
+
+    height: 100vh;
+}
+
+.main   {
+    height: 100%;
+}
+
+.twitterCard {
+width: 35%;
+height: 25;
+border: 1px solid black;
+
+}
