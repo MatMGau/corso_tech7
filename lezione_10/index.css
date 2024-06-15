@@ -1,0 +1,116 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+body {
+    background: #ECF8FF;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.card  {
+    position: absolute;
+    top: calc(50% - (228px / 2));
+    left: calc(50% - (601px / 2));
+    
+    width: 601px;
+    height: 228px;
+    background: white;
+    border: 1px solid #1DA1F233;
+    box-shadow: 0px 15px 60px 0px #1DA1F226;
+    border-radius: 10px;
+    padding: 35px 31px;
+
+}
+
+.profilePic {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover ;
+  
+}
+.headerCard{
+    position: relative;
+   
+}
+
+
+.containerName{
+    position: absolute;
+    top: calc(50% - (39px / 2));
+    left: 72px;
+ 
+    
+}
+
+.nickname{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.username{
+font-size: 16px;
+font-weight: normal;
+
+}
+
+.logo {
+position: absolute;
+top: calc(50% - (22px / 2));
+right: 0;
+width: 27px;
+height: 21px;
+}
+
+.mainCard{
+    padding: 15px 0px;
+}
+
+
+.hastags{
+    color: #1DA1F2;
+}
+
+
+
+.footerCard{
+    position: relative;
+    font-size: 14px;
+    
+}
+
+
+
+.containerLike{
+   color: rgba(0, 0, 0, 0.6);
+   font-weight: 600;
+   font-style: normal;
+    
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.counterLike{
+    position: absolute;
+    margin-left: 31px;
+    top: calc(50% - (18px / 2));
+    
+
+}
+.Data {
+    position: absolute;
+    top: calc(50% - (18px / 2));
+    left: 69px;
+   color: rgba(0, 0, 0, 0.6);
+   font-weight: 600;
+   font-style: normal;
+   
+   
+ 
+ }

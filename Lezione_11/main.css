@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(28, 28, 28, 1);
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.card  {
+    position: absolute;
+    top: calc(50% - (198px / 2));
+    left: calc(50% - (400px / 2));
+        width: 400px;
+        height: 198px;
+        overflow: hidden;
+    
+        background-color: rgb(74, 29, 79);
+    border: 2px solid rgba(109, 113, 224, 1);
+    border-radius: 20px;
+    padding: 126px, 24px, 24px, 24px;
+}
+
+.imgMain  {  
+    width: 100%;
+    height: 150px;
+  object-fit: cover;
+  
+
+}
+
+
+.imgTitle {
+    width: 100%;
+    height: 58px;
+   
+
+    
+}
+
+.containerTitle {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 105px;
+    height: 58px;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.cardFooter {
+    position: absolute;
+    bottom: 18px;
+    left: 34px;
+   
+   
+    
+}
+
+.containerProtagonisti {
+    width: 56px;
+    height: 56px;
+    
+    
+
+}
+
+.protagonista1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid rgb(74, 29, 79);
+    object-fit: cover;
+   
+}
+
+.protagonista2 {
+    position: absolute;
+    left: 86px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid rgb(74, 29, 79);
+    object-fit: cover;
+   
+}
+
+.protagonista3 {
+    position: absolute;
+    left: 172px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid rgb(74, 29, 79);
+    object-fit: cover;
+   
+}
+
+.protagonista4 {
+    position: absolute;
+    left: 258px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid rgb(74, 29, 79);
+    object-fit: cover;
+
+}
