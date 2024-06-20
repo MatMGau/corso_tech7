@@ -8,6 +8,15 @@ body {
     font-family: sans-serif;
     height: 100vh;
 }
+.back {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .card  {
     position: absolute;
@@ -53,8 +62,9 @@ body {
 
 .cardFooter {
     position: absolute;
-    bottom: 18px;
+    bottom: 16px;
     left: 34px;
+    
    
    
     
@@ -73,7 +83,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 8px solid rgb(74, 29, 79);
+    border: 6px solid rgb(74, 29, 79);
     object-fit: cover;
    
 }
@@ -84,7 +94,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 8px solid rgb(74, 29, 79);
+    border: 6px solid rgb(74, 29, 79);
     object-fit: cover;
    
 }
@@ -95,7 +105,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 8px solid rgb(74, 29, 79);
+    border: 6px solid rgb(74, 29, 79);
     object-fit: cover;
    
 }
@@ -106,7 +116,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 8px solid rgb(74, 29, 79);
+    border: 6px solid rgb(74, 29, 79);
     object-fit: cover;
 
 }
